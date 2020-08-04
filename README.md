@@ -87,7 +87,7 @@ for row in range(9):
 ```
 
 
-![png](README_files/README_12_0.png)
+![png](reports/README_files/README_12_0.png)
 
 
 Once I got these, I saved each cell with true labels which I manually extracted.
@@ -142,4 +142,4 @@ The training loss (forgot to create labels and ticks)
 
 I used 50 epochs, batch size of 16 and SGD with .001 learning rate and it was enough to get 100% accuracy for all digits
 
-The actual solving part and its code can be found [here]()
+The actual solving part and its code can be found [here](https://github.com/hsong1101/Sudoku-Solver/blob/master/sudoku_solver.ipynb)
