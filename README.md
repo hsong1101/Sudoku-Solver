@@ -1,10 +1,10 @@
 All pdf files are from [this site](http://www.sudoku-download.net/sudoku_9x9.php)
 
 There are 4 main parts of this project.
-1. [Converting pdf files into separate puzzles]()
-2. [Extracting some digits from puzzles and save with true labels (0 to 9)]()
-3. [Train a digit recognizer]()
-4. [Solve a puzzle and print out the result]()
+1. [Converting pdf files into separate puzzles](https://github.com/hsong1101/Sudoku-Solver/blob/master/convert_pdf.ipynb)
+2. [Extracting some digits from puzzles and save with true labels (0 to 9)](https://github.com/hsong1101/Sudoku-Solver/blob/master/extract_digits.ipynb)
+3. [Train a digit recognizer](https://github.com/hsong1101/Sudoku-Solver/blob/master/digit_recognizer.ipynb)
+4. [Solve a puzzle and print out the result](https://github.com/hsong1101/Sudoku-Solver/blob/master/sudoku_solver.ipynb)
 
 I am going over brief summary of what I did and for details, you can check out the notebook files
 
@@ -26,7 +26,7 @@ plot_image(page)
 ```
 
 
-![png](README_files/README_5_0.png)
+![png](reports/README_files/README_5_0.png)
 
 
 I had to divide them into separate puzzles. Notice that the width and height are hard-coded. I got this values by trying different combinations.
@@ -41,7 +41,7 @@ plot_image(puzzles[0])
 ```
 
 
-![png](README_files/README_7_0.png)
+![png](reports/README_files/README_7_0.png)
 
 
 After getting contours of a puzzle and further processing, I got perfectly grabbed puzzle.
@@ -57,7 +57,7 @@ plot_image(puzzle)
 ```
 
 
-![png](README_files/README_9_0.png)
+![png](reports/README_files/README_9_0.png)
 
 
 Then I divided each cell so that I could save digit pixels with its labels for training data of a digit recognizer
